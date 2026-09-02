@@ -22,6 +22,6 @@ const SITE_CONFIG = {
 
   openHours: "11:00 - 22:00"
 
-  heroImage: "images/hero.jpg",
+ 
 
 };
