@@ -47,10 +47,5 @@ document.addEventListener("DOMContentLoaded", () => {
   document.title =
     SITE_CONFIG.restaurantName;
 
-
-
-
-document.querySelector(".hero").style.backgroundImage =
-  `url("${SITE_CONFIG.heroImage}")`;
   
   });
