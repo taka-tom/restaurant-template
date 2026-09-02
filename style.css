@@ -116,10 +116,9 @@ nav a {
 /* HERO */
 
 .hero {
-
   height: 80vh;
 
-  min-height: 600px;
+  min-height: 500px;
 
   position: relative;
 
@@ -131,15 +130,9 @@ nav a {
 
   text-align: center;
 
-  background:
+  background-size: cover;
 
-    linear-gradient(
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.6)
-    ),
-
-    #444;
-
+  background-position: center;
 }
 
 
