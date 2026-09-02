@@ -49,3 +49,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 });
+
+document.querySelector(".hero").style.backgroundImage =
+  `url("${SITE_CONFIG.heroImage}")`;
