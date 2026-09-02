@@ -119,6 +119,7 @@ nav a {
   position: relative;
   width: 100%;
   height: 600px;
+  padding: 0;
   overflow: hidden;
 
   display: flex;
@@ -129,7 +130,7 @@ nav a {
 .hero-image {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
   display: block;
 }
 
