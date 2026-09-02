@@ -48,7 +48,9 @@ document.addEventListener("DOMContentLoaded", () => {
     SITE_CONFIG.restaurantName;
 
 
-});
+
 
 document.querySelector(".hero").style.backgroundImage =
   `url("${SITE_CONFIG.heroImage}")`;
+  
+  });
