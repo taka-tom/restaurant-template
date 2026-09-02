@@ -116,23 +116,43 @@ nav a {
 /* HERO */
 
 .hero {
-  height: 80vh;
-
-  min-height: 500px;
-
   position: relative;
+  height: 80vh;
+  min-height: 500px;
+  overflow: hidden;
 
   display: flex;
-
   align-items: center;
-
   justify-content: center;
 
   text-align: center;
+}
 
-  background-size: contain;
+.hero-image {
+  position: absolute;
 
-  background-position: center;
+  width: 100%;
+  height: 100%;
+
+  object-fit: contain;
+
+  z-index: 0;
+}
+
+.hero-overlay {
+  position: absolute;
+
+  inset: 0;
+
+  background: rgba(0, 0, 0, 0.35);
+
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+
+  z-index: 2;
 }
 
 
