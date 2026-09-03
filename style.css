@@ -248,6 +248,40 @@ section h2 {
 
 }
 
+/* PLAN */
+
+.plan-section {
+  background: var(--main-color);
+}
+
+.plan-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.plan-card {
+  padding: 0;
+}
+
+.plan-image {
+  width: 100%;
+  height: 300px;
+  background: #555;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.plan-card h3 {
+  margin-top: 20px;
+}
+
+.plan-card p {
+  margin: 10px 0;
+}
+
 
 /* ACCESS */
 
@@ -340,6 +374,8 @@ footer p {
       7%;
 
   }
-
+.plan-grid {
+  grid-template-columns: 1fr;
+}
 
 }
