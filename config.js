@@ -5,9 +5,14 @@ const SITE_CONFIG = {
   catchCopy: "A SPECIAL MOMENT WITH GOOD FOOD.",
 
   heroImage: "images/hero.jpg",
+  
   menuImage01: "images/menu01.jpg",
   menuImage02: "images/menu02.jpg",
   menuImage03: "images/menu03.jpg",
+
+  planImage01: "images/plan01.jpg",
+  planImage02: "images/plan02.jpg",
+
 
   menuName01: "MENU 01",
   menuDescription01: "MENU DESCRIPTION",
