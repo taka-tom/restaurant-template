@@ -28,11 +28,11 @@ const SITE_CONFIG = {
 
   planName01: "PLAN 01",
   planDescription01: "PLAN DESCRIPTION",
-  planPrice01: "¥5,000",
+  planPrice01: "¥15,000",
   
   planName02: "PLAN 02",
   planDescription02: "PLAN DESCRIPTION",
-  planPrice02: "¥8,000",
+  planPrice02: "¥18,000",
 
 
   aboutText:
