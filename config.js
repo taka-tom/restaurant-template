@@ -26,6 +26,14 @@ const SITE_CONFIG = {
   menuDescription03: "MENU DESCRIPTION",
   menuPrice03: "¥5,500",
 
+  planName01: "PLAN 01",
+  planDescription01: "PLAN DESCRIPTION",
+  planPrice01: "¥5,000",
+  
+  planName02: "PLAN 02",
+  planDescription02: "PLAN DESCRIPTION",
+  planPrice02: "¥8,000",
+
 
   aboutText:
     "料理と空間を通して、大切な時間をお届けします。",
