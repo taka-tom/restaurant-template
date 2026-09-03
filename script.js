@@ -46,6 +46,20 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.title =
     SITE_CONFIG.restaurantName;
+    
+    
+document
+  .querySelectorAll("[data-image]")
+  .forEach((image) => {
 
+    const key = image.dataset.image;
+
+    if (SITE_CONFIG[key]) {
+
+      image.src = SITE_CONFIG[key];
+
+    }
+
+  });
   
   });
