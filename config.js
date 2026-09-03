@@ -19,7 +19,7 @@ const SITE_CONFIG = {
   
   menuName03: "MENU 03",
   menuDescription03: "MENU DESCRIPTION",
-  menuPrice03: "¥3,500",
+  menuPrice03: "¥5,500",
 
 
   aboutText:
