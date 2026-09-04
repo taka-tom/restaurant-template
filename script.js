@@ -62,4 +62,7 @@ document
 
   });
   
+  document.getElementById("map").src =
+  `https://www.google.com/maps?q=${encodeURIComponent(SITE_CONFIG.mapLocation)}&output=embed`;
+  
   });
