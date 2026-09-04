@@ -50,7 +50,9 @@ const SITE_CONFIG = {
     "〒000-0000 〇〇県〇〇市〇〇町1-2-3",
 
   openHours: "11:00 - 22:00",
-  closedDay: "定休日：なし"
+  closedDay: "定休日：なし",
+  
+  mapLocation: "大阪市"
  
 
 };
