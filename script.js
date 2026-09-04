@@ -65,4 +65,18 @@ document
   document.getElementById("map").src =
   `https://www.google.com/maps?q=${encodeURIComponent(SITE_CONFIG.mapLocation)}&output=embed`;
   
+  document
+  .querySelectorAll("[data-link]")
+  .forEach((link) => {
+
+    const key = link.dataset.link;
+
+    if (SITE_CONFIG[key]) {
+
+      link.href = SITE_CONFIG[key];
+
+    }
+
+  });
+  
   });
