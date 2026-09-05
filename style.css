@@ -358,6 +358,12 @@ footer p {
   display: block;
 }
 
+/* MOBILE MENU BUTTON */
+
+.menu-toggle {
+  display: none;
+}
+
 
 /* MOBILE */
 
@@ -393,6 +399,24 @@ footer p {
   }
 .plan-grid {
   grid-template-columns: 1fr;
+}
+
+.menu-toggle {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  background: none;
+  border: none;
+
+  cursor: pointer;
+}
+
+.menu-toggle span {
+  width: 24px;
+  height: 2px;
+
+  background: var(--text-color);
 }
 
 }
