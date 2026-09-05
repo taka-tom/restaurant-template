@@ -375,11 +375,28 @@ footer p {
   height: 450px;
 }
 
-  nav {
+nav {
+  display: none;
+}
 
-    display: none;
+nav.active {
+  display: flex;
+  flex-direction: column;
 
-  }
+  position: absolute;
+  top: 80px;
+  left: 0;
+
+  width: 100%;
+
+  padding: 30px 7%;
+
+  background: var(--main-color);
+
+  gap: 25px;
+
+  z-index: 10;
+}
 
 
   .menu-grid {
