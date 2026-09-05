@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>MENU</title>
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+
+</head>
+
+
+<body>
+
+
+  <!-- HEADER -->
+
+  <header>
+
+    <div
+      class="logo"
+      data-site="restaurantName"
+    ></div>
+
+
+    <nav>
+
+      <a href="index.html#about">
+        ABOUT
+      </a>
+
+      <a href="index.html#menu">
+        MENU
+      </a>
+
+      <a href="index.html#plan">
+        PLAN
+      </a>
+
+      <a href="index.html#access">
+        ACCESS
+      </a>
+
+    </nav>
+
+
+    <button
+      class="menu-toggle"
+      aria-label="メニューを開く"
+    >
+
+      <span></span>
+      <span></span>
+      <span></span>
+
+    </button>
+
+
+    <a
+      href="index.html#reservation"
+      class="reservation-button"
+    >
+      RESERVATION
+    </a>
+
+  </header>
+
+
+
+  <!-- MENU -->
+
+  <section>
+
+    <p class="section-subtitle">
+      MENU
+    </p>
+
+    <h1>
+      MENU
+    </h1>
+
+
+    <div class="menu-grid">
+
+
+      <!-- MENU 01 -->
+
+      <div class="menu-card">
+
+        <img
+          class="menu-image"
+          data-image="menuImage01"
+          alt="MENU 01"
+        >
+
+        <h3 data-site="menuName01"></h3>
+
+        <p data-site="menuDescription01"></p>
+
+        <span data-site="menuPrice01"></span>
+
+      </div>
+
+
+      <!-- MENU 02 -->
+
+      <div class="menu-card">
+
+        <img
+          class="menu-image"
+          data-image="menuImage02"
+          alt="MENU 02"
+        >
+
+        <h3 data-site="menuName02"></h3>
+
+        <p data-site="menuDescription02"></p>
+
+        <span data-site="menuPrice02"></span>
+
+      </div>
+
+
+      <!-- MENU 03 -->
+
+      <div class="menu-card">
+
+        <img
+          class="menu-image"
+          data-image="menuImage03"
+          alt="MENU 03"
+        >
+
+        <h3 data-site="menuName03"></h3>
+
+        <p data-site="menuDescription03"></p>
+
+        <span data-site="menuPrice03"></span>
+
+      </div>
+
+
+    </div>
+
+  </section>
+
+
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <p data-site="restaurantName"></p>
+
+  </footer>
+
+
+
+  <script src="config.js"></script>
+
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>
