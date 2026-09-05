@@ -390,7 +390,30 @@ footer p {
   font-size: 48px;
   letter-spacing: 4px;
 }
+.menu-page .menu-grid {
+  max-width: 1100px;
+  margin: auto;
+}
 
+.menu-page .menu-card {
+  padding-bottom: 30px;
+}
+
+.menu-page .menu-card h3 {
+  font-size: 22px;
+}
+
+.menu-page .menu-card p {
+  line-height: 1.8;
+  opacity: 0.8;
+}
+
+.menu-page .menu-card span {
+  display: block;
+  margin-top: 15px;
+  color: var(--accent-color);
+  font-size: 18px;
+}
 
 
 /* MOBILE */
