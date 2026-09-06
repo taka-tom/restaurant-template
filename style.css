@@ -251,7 +251,8 @@ section h2 {
 .menu-more {
   display: inline-block;
   margin-top: 20px;
-
+  margin-left: 8px;
+  
   padding: 10px 20px;
 
   border: 1px solid var(--accent-color);
