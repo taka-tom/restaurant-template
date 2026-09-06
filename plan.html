@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>PLAN</title>
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+
+</head>
+
+
+<body>
+
+
+  <!-- HEADER -->
+
+  <header>
+
+    <div
+      class="logo"
+      data-site="restaurantName"
+    ></div>
+
+
+    <nav>
+
+      <a href="index.html#about">
+        ABOUT
+      </a>
+
+      <a href="menu.html">
+        MENU
+      </a>
+
+      <a href="plan.html">
+        PLAN
+      </a>
+
+      <a href="index.html#access">
+        ACCESS
+      </a>
+
+    </nav>
+
+
+    <button
+      class="menu-toggle"
+      aria-label="メニューを開く"
+    >
+
+      <span></span>
+      <span></span>
+      <span></span>
+
+    </button>
+
+
+    <a
+      href="index.html#reservation"
+      class="reservation-button"
+    >
+      RESERVATION
+    </a>
+
+  </header>
+
+
+
+  <!-- PLAN -->
+
+  <section class="plan-page">
+
+    <div class="menu-page-title">
+
+      <p class="section-subtitle">
+        PLAN
+      </p>
+
+      <h1>
+        PLAN
+      </h1>
+
+      <a
+        href="index.html"
+        class="back-home"
+      >
+        ← BACK TO HOME
+      </a>
+
+    </div>
+
+
+    <div class="plan-grid">
+
+
+      <!-- PLAN 01 -->
+
+      <div
+        class="plan-card"
+        id="plan01"
+      >
+
+        <img
+          class="plan-image"
+          data-image="planImage01"
+          alt="PLAN 01"
+        >
+
+        <h3 data-site="planName01"></h3>
+
+        <p data-site="planDescription01"></p>
+
+        <span data-site="planPrice01"></span>
+
+      </div>
+
+
+
+      <!-- PLAN 02 -->
+
+      <div
+        class="plan-card"
+        id="plan02"
+      >
+
+        <img
+          class="plan-image"
+          data-image="planImage02"
+          alt="PLAN 02"
+        >
+
+        <h3 data-site="planName02"></h3>
+
+        <p data-site="planDescription02"></p>
+
+        <span data-site="planPrice02"></span>
+
+      </div>
+
+
+    </div>
+
+  </section>
+
+
+
+  <!-- RESERVATION -->
+
+  <section class="reservation">
+
+    <p class="section-subtitle">
+      RESERVATION
+    </p>
+
+    <h2>
+      BOOK YOUR TABLE
+    </h2>
+
+    <a
+      href="#"
+      class="reservation-button large"
+      data-link="reservationUrl"
+    >
+      WEB RESERVATION
+    </a>
+
+  </section>
+
+
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <p data-site="restaurantName"></p>
+
+  </footer>
+
+
+
+  <script src="config.js"></script>
+
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>
