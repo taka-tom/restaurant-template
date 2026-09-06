@@ -425,6 +425,16 @@ footer p {
   letter-spacing: 2px;
 }
 
+.back-home {
+  display: inline-block;
+  margin-top: 20px;
+
+  color: var(--accent-color);
+
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
 
 /* MOBILE */
 
