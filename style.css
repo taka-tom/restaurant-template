@@ -251,7 +251,7 @@ section h2 {
 .menu-more {
   display: inline-block;
   margin-top: 20px;
-  margin-left: 12px;
+  margin-left: 30px;
   
   padding: 10px 20px;
 
@@ -467,6 +467,21 @@ footer p {
   font-size: 18px;
 }
 
+/* ACCESS PAGE */
+
+.access-page {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.access-page .access {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.access-page .map {
+  margin-top: 50px;
+}
 
 /* MOBILE */
 
