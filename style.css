@@ -435,6 +435,37 @@ footer p {
   letter-spacing: 2px;
 }
 
+/* PLAN PAGE */
+
+.plan-page {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.plan-page .plan-grid {
+  margin-top: 40px;
+}
+
+.plan-page .plan-card {
+  padding-bottom: 30px;
+}
+
+.plan-page .plan-card h3 {
+  font-size: 22px;
+}
+
+.plan-page .plan-card p {
+  line-height: 1.8;
+  opacity: 0.8;
+}
+
+.plan-page .plan-card span {
+  display: block;
+  margin-top: 15px;
+  color: var(--accent-color);
+  font-size: 18px;
+}
+
 
 /* MOBILE */
 
