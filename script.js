@@ -93,6 +93,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
     });
 
+  // PHONE
+
+  document
+    .querySelectorAll("[data-phone]")
+    .forEach((phone) => {
+
+      phone.href =
+        `tel:${SITE_CONFIG.phone}`;
+
+    });
+
 
   // HAMBURGER MENU
 
