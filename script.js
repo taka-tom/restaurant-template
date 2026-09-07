@@ -104,6 +104,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
     });
 
+// EMAIL
+
+document
+  .querySelectorAll("[data-email]")
+  .forEach((email) => {
+
+    email.href =
+      `mailto:${SITE_CONFIG.email}`;
+
+  });
+
 
   // HAMBURGER MENU
 
