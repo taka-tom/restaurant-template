@@ -56,6 +56,6 @@ const SITE_CONFIG = {
   
   mapLocation: "大阪市"
   
-  instagram: "https://www.instagram.com/",
+  instagram: "https://www.instagram.com/"
 
 };
