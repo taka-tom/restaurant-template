@@ -610,3 +610,36 @@ nav.active {
 }
 
 }
+
+/* RESERVATION MOBILE */
+
+@media (max-width: 768px) {
+
+  .reservation-page {
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+
+  .reservation-form {
+    margin-top: 30px;
+  }
+
+  .reservation-form input,
+  .reservation-form textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 0;
+  }
+
+  .reservation-form label {
+    margin-bottom: 8px;
+  }
+
+  .reservation-submit {
+    width: 100%;
+    padding: 18px;
+    margin-top: 10px;
+  }
+
+}
