@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>RESERVATION</title>
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+
+</head>
+
+
+<body>
+
+
+  <!-- HEADER -->
+
+  <header>
+
+    <a
+      href="index.html"
+      class="logo"
+      data-site="restaurantName"
+    ></a>
+
+
+    <button
+      class="menu-toggle"
+      aria-label="メニュー"
+    >
+
+      <span></span>
+      <span></span>
+      <span></span>
+
+    </button>
+
+
+    <nav>
+
+      <a href="index.html#about">
+        ABOUT
+      </a>
+
+      <a href="menu.html">
+        MENU
+      </a>
+
+      <a href="plan.html">
+        PLAN
+      </a>
+
+      <a href="access.html">
+        ACCESS
+      </a>
+
+    </nav>
+
+
+  </header>
+
+
+
+  <!-- RESERVATION -->
+
+  <section class="reservation-page">
+
+    <div class="menu-page-title">
+
+      <p class="section-subtitle">
+        RESERVATION
+      </p>
+
+      <h1>
+        RESERVATION
+      </h1>
+
+      <a
+        href="index.html"
+        class="back-home"
+      >
+        ← BACK TO HOME
+      </a>
+
+    </div>
+
+
+    <div class="reservation-form">
+
+      <p>
+        ご予約はこちらのフォームから
+        お申し込みください。
+      </p>
+
+
+      <form>
+
+        <label>
+          お名前
+        </label>
+
+        <input
+          type="text"
+          name="name"
+          required
+        >
+
+
+        <label>
+          電話番号
+        </label>
+
+        <input
+          type="tel"
+          name="tel"
+          required
+        >
+
+
+        <label>
+          メールアドレス
+        </label>
+
+        <input
+          type="email"
+          name="email"
+          required
+        >
+
+
+        <label>
+          ご希望日
+        </label>
+
+        <input
+          type="date"
+          name="date"
+          required
+        >
+
+
+        <label>
+          ご希望時間
+        </label>
+
+        <input
+          type="time"
+          name="time"
+          required
+        >
+
+
+        <label>
+          人数
+        </label>
+
+        <input
+          type="number"
+          name="people"
+          min="1"
+          required
+        >
+
+
+        <label>
+          その他・ご要望
+        </label>
+
+        <textarea
+          name="message"
+          rows="5"
+        ></textarea>
+
+
+        <button
+          type="submit"
+          class="reservation-submit"
+        >
+          RESERVATION
+        </button>
+
+      </form>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <p data-site="restaurantName"></p>
+
+    <p data-site="address"></p>
+
+    <p>
+      TEL：
+      <a
+        href="#"
+        data-phone
+      >
+        <span data-site="phone"></span>
+      </a>
+    </p>
+
+    <p>
+      EMAIL：
+      <a
+        href="#"
+        data-email
+      >
+        <span data-site="email"></span>
+      </a>
+    </p>
+
+    <p>
+      <a
+        data-link="instagram"
+        target="_blank"
+      >
+        Instagram
+      </a>
+    </p>
+
+    <p>
+      © 2026
+      <span data-site="restaurantName"></span>
+    </p>
+
+  </footer>
+
+
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>
