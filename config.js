@@ -49,7 +49,7 @@ const SITE_CONFIG = {
   email: "info@example.com",
 
   address:
-    "〒000-0000 〇〇県〇〇市〇〇町1-2-3",
+    "〒000-0000 大阪府大阪市",
 
   openHours: "11:00 - 22:00",
   closedDay: "定休日：なし",
