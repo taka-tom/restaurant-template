@@ -115,6 +115,19 @@ document
 
   });
 
+// ADDRESS
+
+document
+  .querySelectorAll("[data-address]")
+  .forEach((address) => {
+
+    address.href =
+      `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
+        SITE_CONFIG.mapLocation
+      )}`;
+
+  });
+
 
   // HAMBURGER MENU
 
