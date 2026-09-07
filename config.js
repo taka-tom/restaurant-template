@@ -55,6 +55,7 @@ const SITE_CONFIG = {
   closedDay: "定休日：なし",
   
   mapLocation: "大阪市"
- 
+  
+  instagram: "https://www.instagram.com/",
 
 };
