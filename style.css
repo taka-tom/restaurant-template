@@ -632,6 +632,15 @@ nav.active {
     border-radius: 0;
   }
 
+.reservation-form input[type="date"],
+.reservation-form input[type="time"],
+.reservation-form input[type="number"] {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  display: block;
+}
+
   .reservation-form label {
     margin-bottom: 8px;
   }
