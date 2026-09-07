@@ -54,7 +54,7 @@ const SITE_CONFIG = {
   openHours: "11:00 - 22:00",
   closedDay: "定休日：なし",
   
-  mapLocation: "大阪市"
+  mapLocation: "大阪市",
   
   instagram: "https://www.instagram.com/"
 
