@@ -485,6 +485,59 @@ footer p:last-child {
   margin-top: 50px;
 }
 
+/* RESERVATION PAGE */
+
+.reservation-page {
+  max-width: 900px;
+  margin: auto;
+}
+
+.reservation-form {
+  max-width: 600px;
+  margin: 50px auto 0;
+}
+
+.reservation-form > p {
+  text-align: center;
+  margin-bottom: 40px;
+  line-height: 1.8;
+}
+
+.reservation-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.reservation-form label {
+  margin-bottom: 8px;
+  font-size: 13px;
+}
+
+.reservation-form input,
+.reservation-form textarea {
+  margin-bottom: 25px;
+  padding: 14px;
+  border: 1px solid rgba(255,255,255,0.3);
+  background: transparent;
+  color: var(--text-color);
+  font-size: 15px;
+}
+
+.reservation-form textarea {
+  resize: vertical;
+}
+
+.reservation-submit {
+  margin-top: 15px;
+  padding: 16px;
+  border: none;
+  background: var(--accent-color);
+  color: var(--main-color);
+  cursor: pointer;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+
 /* MOBILE */
 
 @media (
