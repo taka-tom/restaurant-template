@@ -34,6 +34,8 @@ const SITE_CONFIG = {
   planDescription02: "PLAN DESCRIPTION",
   planPrice02: "¥18,000",
 
+  reservationUrl: "reservation.html",
+
 
   aboutText:
     "料理と空間を通して、大切な時間をお届けします。",
@@ -57,5 +59,7 @@ const SITE_CONFIG = {
   mapLocation: "大阪市",
   
   instagram: "https://www.instagram.com/"
+
+
 
 };
