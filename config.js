@@ -46,6 +46,8 @@ const SITE_CONFIG = {
 
   phone: "00-0000-0000",
 
+  email: "info@example.com",
+
   address:
     "〒000-0000 〇〇県〇〇市〇〇町1-2-3",
 
