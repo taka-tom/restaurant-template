@@ -638,7 +638,10 @@ nav.active {
   width: 100%;
   max-width: 100%;
   min-width: 0;
+  height: 48px;
   display: block;
+  padding: 12px 14px;
+  box-sizing: border-box;
 }
 
   .reservation-form label {
