@@ -515,12 +515,15 @@ footer p:last-child {
 
 .reservation-form input,
 .reservation-form textarea {
+  width: 100%;
+  max-width: 100%;
   margin-bottom: 25px;
   padding: 14px;
   border: 1px solid rgba(255,255,255,0.3);
   background: transparent;
   color: var(--text-color);
   font-size: 15px;
+  box-sizing: border-box;
 }
 
 .reservation-form textarea {
