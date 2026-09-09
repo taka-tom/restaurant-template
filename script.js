@@ -223,15 +223,32 @@ document
         selectedDate.getDay();
 
 
-      // 火曜日は定休日
-      if (weekDay === 2) {
+// 祝日かどうか
+const isHoliday =
+  SITE_CONFIG.holidays.includes(
+    dateInput.value
+  );
 
-        timeSelect.innerHTML =
-          '<option value="">定休日です</option>';
 
-        return;
+// 火曜日
+if (weekDay === 2) {
 
-      }
+  // 火曜日が祝日なら営業
+  if (isHoliday) {
+
+    startTimes = ["11:00"];
+    endTimes = ["21:00"];
+
+  } else {
+
+    timeSelect.innerHTML =
+      '<option value="">定休日です</option>';
+
+    return;
+
+  }
+
+}
 
 
       let startTimes = [];
