@@ -238,10 +238,18 @@ document
       let endTimes = [];
 
 
-      // 土曜日・日曜日
+      // 祝日かどうか
+      const isHoliday =
+        SITE_CONFIG.holidays.includes(
+          dateInput.value
+        );
+
+
+      // 土日・祝日
       if (
         weekDay === 0 ||
-        weekDay === 6
+        weekDay === 6 ||
+        isHoliday
       ) {
 
         startTimes = ["11:00"];
