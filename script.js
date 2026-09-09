@@ -162,7 +162,7 @@ document
 
 }
 
-   // RESERVATION
+  // RESERVATION
 
   const dateInput =
     document.querySelector('input[name="date"]');
@@ -223,38 +223,6 @@ document
         selectedDate.getDay();
 
 
-// 祝日かどうか
-const isHoliday =
-  SITE_CONFIG.holidays.includes(
-    dateInput.value
-  );
-
-
-// 火曜日
-if (weekDay === 2) {
-
-  // 火曜日が祝日なら営業
-  if (isHoliday) {
-
-    startTimes = ["11:00"];
-    endTimes = ["21:00"];
-
-  } else {
-
-    timeSelect.innerHTML =
-      '<option value="">定休日です</option>';
-
-    return;
-
-  }
-
-}
-
-
-      let startTimes = [];
-      let endTimes = [];
-
-
       // 祝日かどうか
       const isHoliday =
         SITE_CONFIG.holidays.includes(
@@ -262,8 +230,32 @@ if (weekDay === 2) {
         );
 
 
-      // 土日・祝日
-      if (
+      let startTimes = [];
+      let endTimes = [];
+
+
+      // 火曜日
+      if (weekDay === 2) {
+
+        // 火曜日が祝日なら営業
+        if (isHoliday) {
+
+          startTimes = ["11:00"];
+          endTimes = ["21:00"];
+
+        } else {
+
+          timeSelect.innerHTML =
+            '<option value="">定休日です</option>';
+
+          return;
+
+        }
+
+      }
+
+      // 土曜日・日曜日・祝日
+      else if (
         weekDay === 0 ||
         weekDay === 6 ||
         isHoliday
@@ -366,5 +358,3 @@ if (weekDay === 2) {
     );
 
   }
-        
-});
