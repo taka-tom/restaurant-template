@@ -638,13 +638,21 @@ nav.active {
 .reservation-form input[type="date"],
 .reservation-form input[type="time"],
 .reservation-form input[type="number"] {
-  width: 100%;
-  max-width: 100%;
-  min-width: 0;
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
   height: 48px;
   display: block;
   padding: 12px 14px;
+  margin: 0 0 25px 0;
   box-sizing: border-box;
+  font-size: 16px;
+  border: 1px solid rgba(255,255,255,0.3);
+  background: transparent;
+  color: var(--text-color);
+  border-radius: 0;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
   .reservation-form label {
