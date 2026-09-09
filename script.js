@@ -160,6 +160,8 @@ document
 
     });
 
+}
+
    // RESERVATION
 
   const dateInput =
