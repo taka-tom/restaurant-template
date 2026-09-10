@@ -359,4 +359,26 @@ document
 
   }
   
+    // RESERVATION CONFIRM
+
+  const confirmButton =
+    document.getElementById("confirm-button");
+
+  const reservationForm =
+    document.querySelector(".reservation-form form");
+
+
+  if (confirmButton && reservationForm) {
+
+    confirmButton.addEventListener(
+      "click",
+      () => {
+
+        alert("入力内容を確認します。");
+
+      }
+    );
+
+  }
+  
   });
