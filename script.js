@@ -499,15 +499,24 @@ if (confirmButton && reservationForm) {
       );
 
 
-      // 修正する
-      document
-        .getElementById("back-to-form")
-        .addEventListener("click", () => {
+         // 修正する
+        document
+          .getElementById("back-to-form")
+          .addEventListener("click", () => {
 
-          confirmation.remove();
+            confirmation.remove();
 
-          reservationForm.style.display =
-            "flex";
+            reservationForm.style.display =
+              "flex";
+
+          });
+
+        // 最終送信
+        document
+          .getElementById("final-submit")
+          .addEventListener("click", () => {
+
+            reservationForm.requestSubmit();
 
         });
 
