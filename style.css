@@ -600,6 +600,73 @@ footer p:last-child {
   background-repeat: no-repeat;
 }
 
+/* RESERVATION CONFIRMATION */
+
+#reservation-confirmation {
+  max-width: 600px;
+  margin: 50px auto 0;
+}
+
+.confirmation-box {
+  padding: 40px;
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+.confirmation-box h2 {
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 40px;
+}
+
+.confirmation-box p {
+  padding: 15px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.15);
+  line-height: 1.7;
+}
+
+.confirmation-box p strong {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--accent-color);
+  font-size: 13px;
+}
+
+.confirmation-box button {
+  width: 100%;
+  margin-top: 15px;
+}
+
+#back-to-form {
+  background: transparent;
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
+}
+
+#final-submit {
+  background: var(--accent-color);
+  color: var(--main-color);
+}
+
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+  #reservation-confirmation {
+    margin-top: 30px;
+  }
+
+  .confirmation-box {
+    padding: 25px 20px;
+  }
+
+  .confirmation-box h2 {
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+
+}
+
 
 /* MOBILE */
 
