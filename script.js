@@ -359,26 +359,161 @@ document
 
   }
   
-    // RESERVATION CONFIRM
+// RESERVATION CONFIRM
 
-  const confirmButton =
-    document.getElementById("confirm-button");
+const confirmButton =
+  document.getElementById("confirm-button");
 
-  const reservationForm =
-    document.querySelector(".reservation-form form");
+const reservationForm =
+  document.querySelector(".reservation-form form");
 
 
-  if (confirmButton && reservationForm) {
+if (confirmButton && reservationForm) {
 
-    confirmButton.addEventListener(
-      "click",
-      () => {
+  confirmButton.addEventListener(
+    "click",
+    () => {
 
-        alert("入力内容を確認します。");
+      // 必須項目をチェック
+      if (!reservationForm.checkValidity()) {
+
+        reservationForm.reportValidity();
+
+        return;
 
       }
-    );
 
-  }
+
+      // 入力内容を取得
+      const name =
+        reservationForm.querySelector(
+          '[name="name"]'
+        ).value;
+
+      const tel =
+        reservationForm.querySelector(
+          '[name="tel"]'
+        ).value;
+
+      const email =
+        reservationForm.querySelector(
+          '[name="email"]'
+        ).value;
+
+      const date =
+        reservationForm.querySelector(
+          '[name="date"]'
+        ).value;
+
+      const time =
+        reservationForm.querySelector(
+          '[name="time"]'
+        ).value;
+
+      const people =
+        reservationForm.querySelector(
+          '[name="people"]'
+        ).value;
+
+      const message =
+        reservationForm.querySelector(
+          '[name="message"]'
+        ).value;
+
+
+      // 確認画面
+      const confirmation =
+        document.createElement("div");
+
+      confirmation.id =
+        "reservation-confirmation";
+
+
+      confirmation.innerHTML = `
+
+        <div class="confirmation-box">
+
+          <h2>ご予約内容の確認</h2>
+
+          <p>
+            <strong>お名前</strong><br>
+            ${name}
+          </p>
+
+          <p>
+            <strong>電話番号</strong><br>
+            ${tel}
+          </p>
+
+          <p>
+            <strong>メールアドレス</strong><br>
+            ${email}
+          </p>
+
+          <p>
+            <strong>ご希望日</strong><br>
+            ${date}
+          </p>
+
+          <p>
+            <strong>ご希望時間</strong><br>
+            ${time}
+          </p>
+
+          <p>
+            <strong>人数</strong><br>
+            ${people}名
+          </p>
+
+          <p>
+            <strong>その他・ご要望</strong><br>
+            ${message || "なし"}
+          </p>
+
+          <button
+            type="button"
+            id="back-to-form"
+            class="reservation-submit"
+          >
+            修正する
+          </button>
+
+          <button
+            type="button"
+            id="final-submit"
+            class="reservation-submit"
+          >
+            この内容で送信
+          </button>
+
+        </div>
+
+      `;
+
+
+      reservationForm.style.display =
+        "none";
+
+      reservationForm.parentElement.appendChild(
+        confirmation
+      );
+
+
+      // 修正する
+      document
+        .getElementById("back-to-form")
+        .addEventListener("click", () => {
+
+          confirmation.remove();
+
+          reservationForm.style.display =
+            "flex";
+
+        });
+
+    }
+  );
+
+}
   
   });
