@@ -667,6 +667,21 @@ footer p:last-child {
 
 }
 
+/* THANKS PAGE */
+
+.thanks-message {
+  text-align: center;
+}
+
+.thanks-message h2,
+.thanks-message p {
+  text-align: center;
+}
+
+.thanks-message .menu-more {
+  display: inline-block;
+}
+
 
 /* MOBILE */
 
